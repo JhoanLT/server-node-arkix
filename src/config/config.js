@@ -15,7 +15,8 @@ process.env.PORT = process.env.PORT || 8080;
 //  =============
 let urlDB;
 if (process.env.NODE_ENV === 'dev') { //Development
-    urlDB = 'mongodb://localhost:27017/test-arkix';
+    // urlDB = 'mongodb://localhost:27017/test-arkix';
+    urlDB = 'mongodb+srv://jholoDev:test-arkix@cluster0-usojm.mongodb.net/test-arkix?retryWrites=true&w=majority';
 } else {
     //Production
     urlDB = 'mongodb+srv://jholoDev:test-arkix@cluster0-usojm.mongodb.net/test-arkix?retryWrites=true&w=majority';
