@@ -2,7 +2,7 @@
 
 Server NODE JS
 
-### Prerequisites
+### Requirements
 
 * [Node JS](https://nodejs.org/es/)
 * [Mongo DB](https://www.mongodb.com/)
