@@ -57,3 +57,6 @@ npm start
 ```
 [DELETE] https://server-node-arkix.herokuapp.com/api/v1/news/delete/:id   -*token*
 ```
+## URL App production
+
+https://app-test-arkix.herokuapp.com
