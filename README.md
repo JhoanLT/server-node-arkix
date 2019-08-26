@@ -1,6 +1,6 @@
 # Test arkix
 
-Server NODE JS
+Server Node JS
 
 ### Requirements
 
