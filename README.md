@@ -4,7 +4,8 @@ Server NODE JS
 
 ### Prerequisites
 
-NODE version 10+
+* [Node JS](https://nodejs.org/es/)
+* [Mongo DB](https://www.mongodb.com/)
 
 ### Installing
 
@@ -18,18 +19,24 @@ cd server-node-arkix
 npm install
 ```
 ```
-node index.js
+npm start
 ```
 
-## Routes - user
+## Routes(Local) - user
 ```
 [POST] http://localhost:8080/api/v1/user/register
 ```
 ```
 [POST] http://localhost:8080/api/v1/user/auth
 ```
-
-## Routes - news
+## Routes(Production) - user
+```
+[POST] https://server-node-arkix.herokuapp.com/api/v1/user/register
+```
+```
+[POST] https://server-node-arkix.herokuapp.com/api/v1/user/auth
+```
+## Routes(Local) - news
 ```
 [GET]    http://localhost:8080/api/v1/news/list-by-user -*token*
 ```
@@ -38,4 +45,15 @@ node index.js
 ```
 ```
 [DELETE] http://localhost:8080/api/v1/news/delete/:id   -*token*
+```
+
+## Routes(Production) - news
+```
+[GET]    https://server-node-arkix.herokuapp.com/api/v1/news/list-by-user -*token*
+```
+```
+[POST]   https://server-node-arkix.herokuapp.com/api/v1/news/register     -*token*
+```
+```
+[DELETE] https://server-node-arkix.herokuapp.com/api/v1/news/delete/:id   -*token*
 ```
