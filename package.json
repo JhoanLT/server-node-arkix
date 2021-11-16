@@ -10,7 +10,7 @@
   "author": "Jhoan Lopez",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.515.0",
+    "aws-sdk": "^2.814.0",
     "bcrypt": "^3.0.6",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
